@@ -19,5 +19,7 @@ as a way for students to use comparative lexical data without learning a
 toolchain or cloning hundreds of repositories, and it stays static and
 mirrorable: everything is in git and in archived releases.
 
+Invited editors: start with [A first look at Arca Verborum](https://github.com/arcaverborum/.github/blob/main/FIRST_LOOK.md).
+
 Contributions follow [CONTRIBUTING](https://github.com/arcaverborum/.github/blob/main/CONTRIBUTING.md)
 and the [AI policy](https://github.com/arcaverborum/.github/blob/main/AI_POLICY.md).

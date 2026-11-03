@@ -38,8 +38,10 @@ each release's Zenodo record, and the explorer's "editors of this variety".
 2. Edit `varieties/<av_id>/` (config, `custom/` files, recipe) and rebuild
    with `python build.py update <av_id>`.
 3. Open a pull request. CI rebuilds every touched variety from the snapshot.
-4. A new source or variety whose rows are not in the snapshot ships its
-   reviewed intake rows as a snapshot extension in the same pull request.
+4. A new source whose rows are not in the snapshot is committed as a source
+   extension, `extensions/<dataset>/`, in the same pull request (format in
+   `extensions/README.md`). It must declare a licence, and CI validates it
+   and rebuilds everything with it.
 
 ## Evidence
 
